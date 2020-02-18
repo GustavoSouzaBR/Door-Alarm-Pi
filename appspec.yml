@@ -15,11 +15,11 @@ hooks:
       runas: app
   BeforeInstall:
     - location: scripts/BeforeInstall.sh
-      timeout: 300
+      timeout: 600
       runas: app
   AfterInstall:
     - location: scripts/AfterInstall.sh
-      timeout: 300
+      timeout: 600
       runas: app
   ApplicationStart:
     - location: scripts/ApplicationStart.sh
